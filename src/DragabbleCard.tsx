@@ -5,6 +5,7 @@ import styled from "styled-components";
 // styled
 const Card = styled.div`
   border-radius: 5px;
+  margin-bottom: 10px;
   padding: 10px;
   background-color: ${(props) => props.theme.cardColor};
 `;
